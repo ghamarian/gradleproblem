@@ -1,0 +1,7 @@
+apply plugin: 'java'
+
+dependencies {
+    compile (project(':a').files("."))
+    println fileTree(project(':a').buildDir.path).files
+}
+

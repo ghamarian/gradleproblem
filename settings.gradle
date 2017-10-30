@@ -1,0 +1,5 @@
+rootProject.name = 'multi'
+
+include 'a'
+include 'b'
+
